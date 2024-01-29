@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     }
+   a{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: #ECF0F1;
+        text-align: center;
+        margin: 10px;
+        font-size: 30px;
+        box-shadow: 2px 1px 2px;
+        line-height: 90px;
+        margin-top: -100px;
+     }
+     a i{
+        transition: all 0.3s linear;
+     }
+     a i:hover{
+        font-size: 50px;
+     }
+     .fa-facebook{
+        color: dodgerblue;
+     }
+    .fa-facebook-messenger{
+        color: #006AFF;
+    }
+    .fa-youtube{
+        color: red;
+    }
+    .fa-twitter{
+        color: #1DA1F2;
+    }
+    .fa-whatsapp{
+        color: #128c7e;
+    }
